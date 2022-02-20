@@ -1,6 +1,6 @@
 # Aprendendo a linguagem Java
 
-<p>Este é um projeto inicial para eu começar  os estudos sobre como programar utilizando linguagem Java. Ao finalizar este repositório, estarei utilizando a IDE Eclipse para facilitar a execução do programa e entender melhor como funciona a programação em Java no mercado de trabalho.</p>
+<p>Este é um projeto inicial para eu começar  os estudos sobre como programar utilizando linguagem Java. Estarei utilizando a IDE Eclipse para facilitar a execução do programa e entender melhor como funciona a programação em Java no mercado de trabalho.</p>
 
 ## Realizações no programa:
 <br>
@@ -19,3 +19,6 @@
 
 - Aprendendo a utilizar a IDE Eclipse para executar linguagem Java.
 
+<br>
+
+- Entre outros aprendizados...
