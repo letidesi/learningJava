@@ -9,9 +9,9 @@ public class VariaveisBoolean {
 		boolean falso = false;
 		
 		
-		System.out.println("Ana perdeu o dinheiro? " +falso);
-		System.out.println("Lucas ganhou o dinheiro? " +verdadeiro);
-		System.out.println("Qual é o valor de verdadeiro? " +verdadeiro);
+		System.out.println("Ana perdeu o dinheiro? " + falso);
+		System.out.println("Lucas ganhou o dinheiro? " + verdadeiro);
+		System.out.println("Qual é o valor de verdadeiro? " + verdadeiro);
 		System.out.println("Qual é o valor de falso? " + falso);
 
 	}
