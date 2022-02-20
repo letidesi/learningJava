@@ -24,7 +24,7 @@ public class VariaveisChar {
 		
 		System.out.println("" + o2 + i + " " + feliz + alegre);
 		 
-		System.out.println("" + "Como vocês estão"+ interrogacao);
+		System.out.println("" + "Como vocês estão" + interrogacao);
 		
 		
 
