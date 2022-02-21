@@ -14,16 +14,16 @@ public class Exercicio07 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Informe o valor da base: ");
-		double b = scanner.nextDouble();
+		System.out.println("Informe o valor do lado do quadrado: ");
+		double ladoDoQuadrado = scanner.nextDouble();
 		
-		System.out.println("Informe o valor da altura: ");
-		double h = scanner.nextDouble();
+		double areaDoQuadrado = Math.pow(ladoDoQuadrado, 2);
 		
-		double area = b * h;
+		double dobroAreaDoQuadrado = areaDoQuadrado * 2;
 		
-		double areaFinal = area * 2;
-		System.out.println("Valor final do dobro da área do quadrado é: " + areaFinal);
+		System.out.println("A área do quadrado é: " + areaDoQuadrado);
+		System.out.println("O dobro da área do quadrado é: " + dobroAreaDoQuadrado);
+		
 	}
 
 }

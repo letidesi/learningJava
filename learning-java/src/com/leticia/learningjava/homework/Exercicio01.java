@@ -6,8 +6,7 @@ public class Exercicio01 {
 
 		/* Faça um programa que mostre a mensagem "Alo Mundo" na tela. */
 		
-		String aloMundo = "Alo Mundo";
-		System.out.println(aloMundo);
+		System.out.println("Alo Mundo");
 
 	}
 

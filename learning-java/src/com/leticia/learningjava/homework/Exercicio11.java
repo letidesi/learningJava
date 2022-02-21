@@ -18,13 +18,13 @@ public class Exercicio11 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Informe o primeiro número que seja inteiro: ");
+		System.out.println("Informe um número inteiro: ");
 		int primeiroNumero = scanner.nextInt();
 		
-		System.out.println("Informe o segundo número que seja inteiro: ");
+		System.out.println("Informe um segundo número inteiro: ");
 		int segundoNumero = scanner.nextInt();
 		
-		System.out.println("Informe o terceiro número que seja real: ");
+		System.out.println("Informe um número real: ");
 		double terceiroNumero = scanner.nextDouble();
 		
 		int dobroDoPrimeiroNumero = primeiroNumero * 2;

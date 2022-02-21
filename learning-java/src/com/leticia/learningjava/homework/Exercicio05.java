@@ -14,7 +14,7 @@ public class Exercicio05 {
 		double metros = scanner.nextDouble();
 		
 		double cm = metros * 100;
-		System.out.println("Valor em centímetros: " + cm);
+		System.out.println(metros + " m é igual a " + cm + " cm.");
 
 	}
 

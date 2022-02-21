@@ -14,7 +14,7 @@ public class Exercicio03 {
 		double primeiroNumero = scanner.nextDouble();
 		
 		System.out.println("Informe o segundo número: ");
-		double segundoNumero =scanner.nextDouble();
+		double segundoNumero = scanner.nextDouble();
 		
 		double soma = primeiroNumero + segundoNumero;
 		System.out.println("O valor da soma é: " + soma);

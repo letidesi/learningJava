@@ -15,10 +15,10 @@ public class Exercicio10 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Informe a temperatura em graus Celsius: ");
-		double grausCelsius = scanner.nextDouble();
+		double celsius = scanner.nextDouble();
 		
-		double farenheit = (grausCelsius * 9 / 5) + 32;
-		System.out.println("A temperatura em Farenheit é de: " + farenheit);
+		double farenheit = (celsius * 9 / 5) + 32;
+		System.out.println("A temperatura " + celsius + " °C é igual a: " + farenheit + " °F.");
 	}
 
 }

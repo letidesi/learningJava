@@ -22,7 +22,7 @@ public class Exercicio04 {
 		System.out.println("Informe valor da quarta nota bimestral:");
 		double quartaNota = scanner.nextDouble();
 		
-		double media = (primeiraNota + segundaNota + terceiraNota + quartaNota)/4;
+		double media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4;
 		System.out.println("Sua média foi: " + media);
 		
 	}

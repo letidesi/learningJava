@@ -18,11 +18,12 @@ public class Exercicio08 {
 		System.out.println("Informe quanto você ganha por hora: ");
 		double ganhaPorHora = scanner.nextDouble();
 		
-		System.out.println("Informe o número de horas trabalhas: ");
-		double numeroHorasTrabalhadas = scanner.nextDouble();
+		System.out.println("Informe a quantidade de horas trabalhas no mês: ");
+		double quantidadeHorasTrabalhadas = scanner.nextDouble();
 		
-		double totalSalario = ganhaPorHora * numeroHorasTrabalhadas;
-		System.out.println("Seu salário no referido mês é de: " + totalSalario + " reais.");
+		double salario = ganhaPorHora * quantidadeHorasTrabalhadas;
+		System.out.println("O total do seu salário no referido mês é de: " + salario + " reais.");
+		
 	}
 
 }
