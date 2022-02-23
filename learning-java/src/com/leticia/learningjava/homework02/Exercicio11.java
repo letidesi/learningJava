@@ -62,7 +62,7 @@ public class Exercicio11 {
 			System.out.println("O valor do porcentual aplicado é de: " + dezPorcento);
 			System.out.println("O valor do aumento é de: " + valorAumento10);
 			System.out.println("O novo salário é igual a " + aumentoAplicado10 + " reais.");
-		}else if (salario >= 1500) {
+		}else if (salario > 1500) {
 			System.out.println("O valor do porcentual aplicado é de: " + cincoPorcento);
 			System.out.println("O valor do aumento é de: " + valorAumento05);
 			System.out.println("O novo salário é igual a " + aumentoAplicado05 + " reais.");
