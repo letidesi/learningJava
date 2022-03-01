@@ -24,6 +24,20 @@ public class Exercicio03 {
 		case "m": System.out.println("Masculino."); break;
 		default: System.out.println("Sexo inválido"); break;
 		}
+		
+		/*
+		  Outra maneira de resolver:
+		   
+		   if(letra.equalsIgnoreCase("f")) {
+			System.out.println("F - Feminino.");
+		} else if (letra.equalsIgnoreCase("m")) {
+			System.out.println("M - Masculino.");
+		} else {
+			System.out.println("Sexo inválido!");
+		}
+		
+		 */
+		
 	}
 
 }
