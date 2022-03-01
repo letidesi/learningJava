@@ -15,11 +15,13 @@ public class Exercicio03 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Informe letra F para feminino ou letra M para masculino: ");
-		String letraInformada = scanner.nextLine();
+		String letraInformada = scanner.next();
 		
 		switch(letraInformada) {
 		case "F": System.out.println("Feminino."); break;
+		case "f": System.out.println("Feminino."); break;
 		case "M": System.out.println("Masculino."); break;
+		case "m": System.out.println("Masculino."); break;
 		default: System.out.println("Sexo inválido"); break;
 		}
 	}
