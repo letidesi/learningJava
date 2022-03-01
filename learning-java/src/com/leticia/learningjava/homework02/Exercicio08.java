@@ -14,21 +14,21 @@ public class Exercicio08 {
 		
 		Scanner scanner = new Scanner(System.in); 
 		
-		System.out.println("Informe o preço do primeiro produto: "); // 14,00
-		double primeiroProduto = scanner.nextDouble();
+		System.out.println("Informe o preço do primeiro produto: "); 
+		double primeiroPreco= scanner.nextDouble();
 		
-		System.out.println("Informe o preço do segundo produto: "); // 12,00
-		double segundoProduto = scanner.nextDouble();
+		System.out.println("Informe o preço do segundo produto: "); 
+		double segundoPreco = scanner.nextDouble();
 		
-		System.out.println("Informe o preço do terceiro produto: "); // 9,00
-		double terceiroProduto = scanner.nextDouble();
+		System.out.println("Informe o preço do terceiro produto: "); 
+		double terceiroPreco = scanner.nextDouble();
 			
-		if(primeiroProduto < segundoProduto && primeiroProduto < terceiroProduto) {
-			System.out.println("Compre o primeiro produto com o valor de: " + primeiroProduto);
-		} else if (segundoProduto < primeiroProduto && segundoProduto < terceiroProduto) {
-			System.out.println("Compre o segundo produto com o valor de: " + segundoProduto);
-		} else {
-			System.out.println("Compre o terceiro produto com o valor de: " + terceiroProduto);
+		if(primeiroPreco <= segundoPreco && primeiroPreco <= terceiroPreco) {
+			System.out.println("Compre o primeiro produto com o valor de: " + primeiroPreco);
+		} else if (segundoPreco <= primeiroPreco && segundoPreco <= terceiroPreco) {
+			System.out.println("Compre o segundo produto com o valor de: " + segundoPreco);
+		} else if (terceiroPreco <= primeiroPreco && terceiroPreco <= segundoPreco) {
+			System.out.println("Compre o terceiro produto com o valor de: " + terceiroPreco);
 		}
 		
 	}
