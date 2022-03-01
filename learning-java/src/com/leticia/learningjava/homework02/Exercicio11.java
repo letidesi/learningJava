@@ -32,45 +32,25 @@ public class Exercicio11 {
 		System.out.println("Informe o salário do colaborador: ");
 		double salario = scanner.nextDouble();
 		
-		double vintePorcento = 1.20;
-		double quinzePorcento = 1.15;
-		double dezPorcento = 1.10;
-		double cincoPorcento = 1.05;
+	    int percentualAplicado = 0;
 		
-		double aumentoAplicado20 = salario * vintePorcento;
-		double aumentoAplicado15 = salario * quinzePorcento;
-		double aumentoAplicado10 = salario * dezPorcento;
-		double aumentoAplicado05 = salario * cincoPorcento;
-		
-		double valorAumento20 = aumentoAplicado20 - salario;
-		double valorAumento15 = aumentoAplicado15 - salario;
-		double valorAumento10 = aumentoAplicado10 - salario;
-		double valorAumento05 = aumentoAplicado05 - salario;
-		
-		
-		System.out.println("O salário antes do reajuste é igual " + salario + " reais.");
-		
-		if(salario == 280) {
-			System.out.println("O valor do porcentual aplicado é de: " + vintePorcento);
-			System.out.println("O valor do aumento é de: " + valorAumento20);
-			System.out.println("O novo salário é igual a " + aumentoAplicado20 + " reais. \n");
+		if(salario <= 280) {
+			percentualAplicado = 20;
 		} else if (salario > 280 && salario <= 700) {
-			System.out.println("O valor do porcentual aplicado é de: " + quinzePorcento);
-			System.out.println("O valor do aumento é de: " + valorAumento15);
-			System.out.println("O novo salário é igual a " + aumentoAplicado15 + " reais.");
+			percentualAplicado = 15;
 		} else if (salario > 700 && salario <= 1500) {
-			System.out.println("O valor do porcentual aplicado é de: " + dezPorcento);
-			System.out.println("O valor do aumento é de: " + valorAumento10);
-			System.out.println("O novo salário é igual a " + aumentoAplicado10 + " reais.");
-		}else if (salario > 1500) {
-			System.out.println("O valor do porcentual aplicado é de: " + cincoPorcento);
-			System.out.println("O valor do aumento é de: " + valorAumento05);
-			System.out.println("O novo salário é igual a " + aumentoAplicado05 + " reais.");
-		}else {
-			System.out.println("Não ganhará aumento.");
-		}
+		   percentualAplicado = 10;
+		} else if (salario > 1500) {
+			percentualAplicado = 5;
+		} 
 	
-
+		double valorAumento = (salario / 100) * percentualAplicado;
+		double salarioAjustado = salario + valorAumento;
+		
+		System.out.println("O salário antes do reajuste é de: " + "R$ " + salario);
+		System.out.println("O percentual de aumento aplicado é de: " + percentualAplicado + "%");
+		System.out.println("O valor do aumento é de: " + "R$ " + valorAumento);
+		System.out.println("O salário ajustado é de: " + "R$ " + salarioAjustado);
 	}
 
 }
