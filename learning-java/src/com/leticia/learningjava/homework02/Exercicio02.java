@@ -15,12 +15,12 @@ public class Exercicio02 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Informe um número: ");
-		double valor = scanner.nextDouble();
+		double numero = scanner.nextDouble();
 		
-		if(valor < 0) {
-			System.out.println("O número informado: " + valor + ". É negativo.");
+		if(numero < 0) {
+			System.out.println("O número informado foi: " + numero + ". É negativo!");
 		} else {
-			System.out.println("O número informado " + valor + ". É positivo.");
+			System.out.println("O número informado foi: " + numero + ". É positivo!");
 		}
 
 	}
