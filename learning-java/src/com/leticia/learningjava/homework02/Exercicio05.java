@@ -26,13 +26,13 @@ public class Exercicio05 {
 		
 		double media = (primeiraNota + segundaNota) / 2;
 		
-		if(media >= 7) {
-			System.out.println("Aprovado.");
-		} else if (media < 7) {
-			System.out.println("Reprovado");
-		} if (media == 10) {
+		if (media == 10) {
 			System.out.println("Aprovado com Distinção.");
-		}
+		} else if(media >= 7) {
+			System.out.println("Aprovado.");
+		} else {
+			System.out.println("Reprovado.");
+		} 
 	}
 
 }
