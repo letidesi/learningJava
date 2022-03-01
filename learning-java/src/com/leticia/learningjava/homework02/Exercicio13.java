@@ -41,7 +41,7 @@ public class Exercicio13 {
 			System.out.println("Sábado.");
 			break;
 		default:
-			System.out.println("Valor inválido.");
+			System.out.println("Não é um dia da semana válido.");
 			break;
 		}
 	}
