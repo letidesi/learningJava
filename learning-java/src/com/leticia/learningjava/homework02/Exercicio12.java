@@ -7,6 +7,7 @@ public class Exercicio12 {
 	public static void main(String[] args) {
 		
 		/*
+		 
 		   Faça um programa para o cálculo de uma folha de pagamento,
 		   sabendo que os descontos são os Imposto de Renda, que depende
 		   do  salário bruto e 3% para o Sindicato e que o FGTS
