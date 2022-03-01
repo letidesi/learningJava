@@ -18,9 +18,9 @@ public class Exercicio02 {
 		double numero = scanner.nextDouble();
 		
 		if(numero < 0) {
-			System.out.println("O número informado foi: " + numero + ". É negativo!");
+			System.out.println("O número informado foi: '" + numero + "'. É negativo!");
 		} else {
-			System.out.println("O número informado foi: " + numero + ". É positivo!");
+			System.out.println("O número informado foi: '" + numero + "'. É positivo!");
 		}
 
 	}
