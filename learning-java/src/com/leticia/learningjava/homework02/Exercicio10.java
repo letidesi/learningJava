@@ -19,12 +19,15 @@ public class Exercicio10 {
 		System.out.println("Informe em qual turno você estuda, M para Matutino"
 				+ ", V para vespertino ou N para noturno:");
 		
-		String turno = scanner.nextLine();
+		String turno = scanner.next();
 		
 		switch(turno) {
 		case "M": System.out.println("Bom dia!"); break;
+		case "m": System.out.println("Bom dia!"); break;
 		case "V": System.out.println("Boa tarde!"); break;
+		case "v": System.out.println("Boa tarde!"); break;
 		case "N": System.out.println("Boa noite!"); break;
+		case "n": System.out.println("Boa noite!"); break;
 		default: System.out.println("Valor inválido!"); break;
 		}
 	}
