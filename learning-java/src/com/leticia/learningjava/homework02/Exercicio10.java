@@ -22,11 +22,11 @@ public class Exercicio10 {
 		String turno = scanner.next();
 		
 		switch(turno) {
-		case "M": System.out.println("Bom dia!"); break;
+		case "M": 
 		case "m": System.out.println("Bom dia!"); break;
-		case "V": System.out.println("Boa tarde!"); break;
+		case "V": 
 		case "v": System.out.println("Boa tarde!"); break;
-		case "N": System.out.println("Boa noite!"); break;
+		case "N": 
 		case "n": System.out.println("Boa noite!"); break;
 		default: System.out.println("Valor inválido!"); break;
 		}
