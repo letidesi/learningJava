@@ -22,12 +22,12 @@ public class Exercicio06 {
 		System.out.println("Informe o terceiro número");
 		double terceiroNumero = scanner.nextDouble(); 
 		
-		if(primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero) {
-			System.out.println("O maior número: " + primeiroNumero);
-		} else if(segundoNumero > primeiroNumero && segundoNumero > terceiroNumero) {
-			System.out.println("O maior número: " + segundoNumero);
-		} else {
-			System.out.println("O maior número: " + terceiroNumero);
+		if(primeiroNumero >= segundoNumero && primeiroNumero >= terceiroNumero) {
+			System.out.println("O primeiro número é o maior: " + primeiroNumero);
+		} else if(segundoNumero >= primeiroNumero && segundoNumero >= terceiroNumero) {
+			System.out.println("O segundo número é o maior: " + segundoNumero);
+		} else if (terceiroNumero >= primeiroNumero && terceiroNumero >= segundoNumero) {
+			System.out.println("O terceiro número é o maior: " + terceiroNumero);
 		}
 
 	}
