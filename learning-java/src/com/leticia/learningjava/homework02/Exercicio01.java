@@ -20,9 +20,9 @@ public class Exercicio01 {
 		double segundoNumero = scanner.nextDouble();
 		
 		if(primeiroNumero > segundoNumero) {
-			System.out.println("O maior número: " + primeiroNumero);
+			System.out.println("O maior número é: " + primeiroNumero);
 		} else {
-			System.out.println("O maior número: " + segundoNumero);
+			System.out.println("O maior número é: " + segundoNumero);
 		}
 	}
 
