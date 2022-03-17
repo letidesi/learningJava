@@ -16,7 +16,7 @@ public class Exercicio07 {
 
 		for (int i = 0; i < 5; i++) {
 
-			System.out.println("Infome um número:");
+			System.out.println("Informe um número:");
 			double numeroInformado = scanner.nextDouble();
 
 			if (numeroInformado > maior) {
