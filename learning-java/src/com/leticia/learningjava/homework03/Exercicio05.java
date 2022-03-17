@@ -28,7 +28,7 @@ public class Exercicio05 {
 		double anos = 0;
 
 		for (int i = 0; A < B; i++) {
-			A += (A * taxaAnualA ) / 100;
+			A += (A * taxaAnualA) / 100;
 			B += (B * taxaAnualB) / 100;
 			anos += 1;
 		}
